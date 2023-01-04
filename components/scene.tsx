@@ -1,9 +1,5 @@
-"use client"
-import { ReactNode, useRef, useState } from "react"
-import { Canvas, useFrame, useLoader } from "@react-three/fiber"
-import { Center, Instance, Instances, OrbitControls, Text3D, useFBO } from "@react-three/drei"
-
-import { RGBELoader } from "three-stdlib"
+import { Canvas } from "@react-three/fiber"
+import { Instance, Instances, OrbitControls } from "@react-three/drei"
 
 export function Scene() {
   return (
